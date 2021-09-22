@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color:lightblue;
+}
+.container {
+    width: 300px;
+    margin: 100px auto 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.display {
+    padding: 10px;
+    display: block;
+    flex-direction: column;
+
+}
+.display input {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:25px;
+    border: none;
+}
+
+.input {
+    width: 298px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.input div {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    box-sizing: border-box;
+
+}
+.input div button {
+    padding: 15px;
+    width: 70px;
+    border: none;
+    transition: all linear .5s;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+
+}
+.input div button:last-child {
+    background-color:rgb(6, 226, 241); 
+}
+.input div button:hover {
+    background-color: aqua;
+}
